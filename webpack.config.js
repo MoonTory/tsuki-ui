@@ -38,8 +38,9 @@ module.exports = {
 	entry: path.join(paths.SOURCE, 'index.tsx'),
 	// The output will tell webpack were to build our files by the 'DIST' constant.
 	output: {
-		path: paths.DIST,
-		filename: 'bundle.js'
+		filename: 'bundle.js',
+		chunkFilename: '[name].bundle.js',
+		path: paths.DIST
 	},
 	resolve: {
 		// root: [path.resolve('./src')],

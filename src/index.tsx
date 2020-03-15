@@ -4,6 +4,8 @@ import { HashRouter } from 'react-router-dom';
 
 import { App } from './app';
 
+import './assets/scss/style.scss';
+
 ReactDOM.render(
 	<Fragment>
 		<HashRouter>
